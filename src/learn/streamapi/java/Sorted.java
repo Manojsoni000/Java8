@@ -25,5 +25,4 @@ public class Sorted {
 		List<Integer> valshort = value.stream().sorted().collect(Collectors.toList());
 		System.out.println(valshort);
 	}
-
 }
