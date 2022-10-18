@@ -24,5 +24,9 @@ public class NameLengthCheck {
 		System.out.println("All Elements in upper case");
 		List<String> filtername1 = name.stream().map(a->a.toUpperCase()).collect(Collectors.toList());
 		System.out.println(filtername1);
+		
+		for(int i=1;i<=filtername1.size();++i) {
+			System.out.println(filtername1.get(i));
+		}
 	}
 }

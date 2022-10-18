@@ -4,7 +4,6 @@ package com.java.lambdaexpression.Helloworld;
 interface Add {
 	void addition(int a, int b);
 }
-
 public class AddNumber {
 	public static void main(String[] args) {
 		Add add = (a, b) -> {
@@ -13,5 +12,4 @@ public class AddNumber {
 		};
 		add.addition(5, 7);
 	}
-
 }
